@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productive Todo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>My Tasks</h1>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="work">Work</button>
+                <button class="tab-btn" data-tab="private">Private</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="input-group">
+                <input type="text" id="task-input" placeholder="What needs to be done?">
+                <button id="add-task-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="tab-content active" id="work-tab">
+                <ul class="task-list" id="work-list">
+                    <!-- Tasks will be injected here -->
+                </ul>
+            </div>
+
+            <div class="tab-content" id="private-tab">
+                <ul class="task-list" id="private-list">
+                    <!-- Tasks will be injected here -->
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

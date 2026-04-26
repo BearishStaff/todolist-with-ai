@@ -1,1 +1,2 @@
 - always write what I prompt to @[ai-prompt.md] as a prompt log.
+- create clickable todolist which use can add, remove, check, edit and split tab between work and private todolist.

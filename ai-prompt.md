@@ -1,0 +1,1 @@
+- always write what I prompt to @[ai-prompt.md] as a prompt log.
